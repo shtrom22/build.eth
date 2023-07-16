@@ -4,3 +4,5 @@ socket/coinmarketcap.key
 **/ganache*
 **/gamesaves
 **proxy/rpc*
+**/faucetPrivateKey*
+**/ganache.log
