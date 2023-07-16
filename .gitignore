@@ -1,2 +1,4 @@
 geth/geth.log
 geth/go-ethereum
+socket/coinmarketcap.key
+**/ganache*
