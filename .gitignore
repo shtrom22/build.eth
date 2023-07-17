@@ -7,3 +7,5 @@ socket/coinmarketcap.key
 **/faucetPrivateKey*
 **/ganache.log
 **/mnemonic*
+**/server.key
+*/node_modules
