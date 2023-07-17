@@ -6,3 +6,4 @@ socket/coinmarketcap.key
 **proxy/rpc*
 **/faucetPrivateKey*
 **/ganache.log
+**/mnemonic*
