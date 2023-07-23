@@ -24,3 +24,6 @@ aws.json
 
 # testing
 /coverage
+
+# production
+/build
