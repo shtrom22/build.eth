@@ -5,3 +5,6 @@ contract Example{
     owner = msg.sender;
   }
   function setOwner(address _owner) public {
+    owner = _owner;
+  }
+}
