@@ -7,3 +7,6 @@ import Blockies from 'react-blockies';
 const StyledTableRow = withStyles(theme => ({
   root: {
     '&:nth-of-type(odd)': {
+      backgroundColor: "#dddddd",
+    },
+  },
