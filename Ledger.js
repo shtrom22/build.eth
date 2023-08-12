@@ -13,3 +13,5 @@ const StyledTableRow = withStyles(theme => ({
 }))(TableRow);
 
 function Ledger() {
+  //this.addInput("[network]",0)
+  this.addInput("tx","object")
