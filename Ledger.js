@@ -17,3 +17,7 @@ function Ledger() {
   this.addInput("tx","object")
   this.addInput("add",-1)
   //this.addOutput("[network]",0)
+  this.addOutput("balance()","function")
+
+  this.balances = {}
+  this.txns = []
