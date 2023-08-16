@@ -21,3 +21,5 @@ function Ledger() {
 
   this.balances = {}
   this.txns = []
+
+  this.properties =  {
