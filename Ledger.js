@@ -23,3 +23,4 @@ function Ledger() {
   this.txns = []
 
   this.properties =  {
+    title:"Ledger",
