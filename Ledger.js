@@ -24,3 +24,5 @@ function Ledger() {
 
   this.properties =  {
     title:"Ledger",
+    currency: "SomeCoin",
+    genesis:[
