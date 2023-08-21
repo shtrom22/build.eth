@@ -26,3 +26,5 @@ function Ledger() {
     title:"Ledger",
     currency: "SomeCoin",
     genesis:[
+      {
+        from: "0x0000000000000000000000000000000000000000",
