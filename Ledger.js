@@ -32,3 +32,5 @@ function Ledger() {
         to: "0xc08b5542d177ac6686946920409741463a15dddb"
       }
     ]
+  }
+  this.size = [640, 360];
