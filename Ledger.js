@@ -34,3 +34,6 @@ function Ledger() {
     ]
   }
   this.size = [640, 360];
+
+
+  for(let g in this.properties.genesis){
