@@ -39,3 +39,7 @@ function Ledger() {
   for(let g in this.properties.genesis){
     this.processTx(this.properties.genesis[g],true)
   }
+
+}
+
+Ledger.prototype.processTx = function(tx,genesis) {
