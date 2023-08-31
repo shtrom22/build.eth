@@ -43,3 +43,5 @@ function Ledger() {
 }
 
 Ledger.prototype.processTx = function(tx,genesis) {
+  console.log("process",tx)
+  try{
