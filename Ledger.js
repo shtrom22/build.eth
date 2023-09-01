@@ -45,3 +45,5 @@ function Ledger() {
 Ledger.prototype.processTx = function(tx,genesis) {
   console.log("process",tx)
   try{
+    if(tx.to&&tx.from&&tx.value){
+      if(!genesis || tx.from!="0x0000000000000000000000000000000000000000"){
