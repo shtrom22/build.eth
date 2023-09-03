@@ -49,3 +49,5 @@ Ledger.prototype.processTx = function(tx,genesis) {
       if(!genesis || tx.from!="0x0000000000000000000000000000000000000000"){
         this.balances[tx.from] = this.balances[tx.from]?this.balances[tx.from]-tx.value:-tx.value
       }
+      this.balances[tx.to] = this.balances[tx.to]?this.balances[tx.to]+tx.value:tx.value
+      this.txns.push(tx)
