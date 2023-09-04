@@ -51,3 +51,5 @@ Ledger.prototype.processTx = function(tx,genesis) {
       }
       this.balances[tx.to] = this.balances[tx.to]?this.balances[tx.to]+tx.value:tx.value
       this.txns.push(tx)
+    }
+  }catch(e){console.log(e)}
