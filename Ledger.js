@@ -53,3 +53,6 @@ Ledger.prototype.processTx = function(tx,genesis) {
       this.txns.push(tx)
     }
   }catch(e){console.log(e)}
+}
+
+Ledger.title = "Ledger";
