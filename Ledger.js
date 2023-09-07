@@ -58,3 +58,7 @@ Ledger.prototype.processTx = function(tx,genesis) {
 Ledger.title = "Ledger";
 Ledger.prototype.getTitle = function() {
   return this.properties.title;
+};
+
+
+Ledger.prototype.onExecute = function() {
