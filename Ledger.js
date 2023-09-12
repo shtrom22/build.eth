@@ -64,3 +64,5 @@ Ledger.prototype.getTitle = function() {
 Ledger.prototype.onExecute = function() {
   this.setOutputData(0,{
     name:"balance",
+    args:[{name:"address",type:"string"}],
+    function:(args)=>{
