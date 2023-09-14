@@ -69,3 +69,7 @@ Ledger.prototype.onExecute = function() {
       console.log("RUN A FUNCTION BUT IN THIS CONTEXT!",args)
       return this.balances[args.address]
     }
+  })
+}
+
+Ledger.prototype.onAction = function() {
