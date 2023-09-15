@@ -73,3 +73,5 @@ Ledger.prototype.onExecute = function() {
 }
 
 Ledger.prototype.onAction = function() {
+  let tx = this.getInputData(0)
+  console.log("INPUT 0 is",tx)
