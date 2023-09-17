@@ -79,3 +79,4 @@ Ledger.prototype.onAction = function() {
 }
 
 const topPadding = 50
+const rowStyle = {fontSize:20,letterSpacing:-1}
