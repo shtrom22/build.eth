@@ -82,3 +82,6 @@ const topPadding = 50
 const rowStyle = {fontSize:20,letterSpacing:-1}
 
 Ledger.prototype.onDrawBackground = function(ctx) {
+  if (this.flags.collapsed) {
+    this.destory()///SHOULD WE DESTORY THE ELEMENT FROM THE DOM OR
+  }else{
