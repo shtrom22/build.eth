@@ -89,3 +89,6 @@ Ledger.prototype.onDrawBackground = function(ctx) {
     const itemStyle = {padding:5,borderBottom:"1px solid #969cca"}
 
     let rows = []
+
+    for(let t in this.txns){
+      let tx = this.txns[t]
