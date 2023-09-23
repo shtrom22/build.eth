@@ -92,3 +92,5 @@ Ledger.prototype.onDrawBackground = function(ctx) {
 
     for(let t in this.txns){
       let tx = this.txns[t]
+      rows.push(
+        <StyledTableRow>
