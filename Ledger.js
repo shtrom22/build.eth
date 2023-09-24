@@ -94,3 +94,5 @@ Ledger.prototype.onDrawBackground = function(ctx) {
       let tx = this.txns[t]
       rows.push(
         <StyledTableRow>
+          <TableCell style={rowStyle}>
+            <Blockies
