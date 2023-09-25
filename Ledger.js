@@ -96,3 +96,5 @@ Ledger.prototype.onDrawBackground = function(ctx) {
         <StyledTableRow>
           <TableCell style={rowStyle}>
             <Blockies
+              seed={tx.from.toLowerCase()}
+              size={8}
