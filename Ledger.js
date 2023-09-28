@@ -103,3 +103,5 @@ Ledger.prototype.onDrawBackground = function(ctx) {
             /><span style={{marginLeft:4}}>{tx.from.substr(0,8)}</span>
           </TableCell>
           <TableCell style={rowStyle}>
+            {parseFloat(tx.value).toFixed(2)}
+          </TableCell>
