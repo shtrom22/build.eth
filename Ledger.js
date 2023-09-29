@@ -105,3 +105,5 @@ Ledger.prototype.onDrawBackground = function(ctx) {
           <TableCell style={rowStyle}>
             {parseFloat(tx.value).toFixed(2)}
           </TableCell>
+          <TableCell style={rowStyle}>
+          <Blockies
