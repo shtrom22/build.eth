@@ -109,3 +109,6 @@ Ledger.prototype.onDrawBackground = function(ctx) {
           <Blockies
             seed={tx.to.toLowerCase()}
             size={8}
+            scale={2}
+
+          /><span style={{marginLeft:4}}>{tx.to.substr(0,8)}</span>
