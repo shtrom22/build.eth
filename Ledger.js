@@ -112,3 +112,5 @@ Ledger.prototype.onDrawBackground = function(ctx) {
             scale={2}
 
           /><span style={{marginLeft:4}}>{tx.to.substr(0,8)}</span>
+          </TableCell>
+        </StyledTableRow>
