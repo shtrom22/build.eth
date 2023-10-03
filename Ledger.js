@@ -114,3 +114,7 @@ Ledger.prototype.onDrawBackground = function(ctx) {
           /><span style={{marginLeft:4}}>{tx.to.substr(0,8)}</span>
           </TableCell>
         </StyledTableRow>
+      )
+    }
+
+    //transformOrigin:"3% -7%"
