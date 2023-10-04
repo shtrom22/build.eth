@@ -118,3 +118,4 @@ Ledger.prototype.onDrawBackground = function(ctx) {
     }
 
     //transformOrigin:"3% -7%"
+    this.render(
