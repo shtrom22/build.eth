@@ -122,3 +122,4 @@ Ledger.prototype.onDrawBackground = function(ctx) {
       <div style={{overflow:"auto",color:"#444444",transformOrigin:"10px -20px",transform:"scale("+this.graph.canvas.ds.scale+")",borderRadius:"0px 0px 8px 8px",background:"#CCCCCC",marginLeft:-19,marginTop:topPadding,width:this.size[0],height:this.size[1]-topPadding-1}}>
         <Table stickyHeader aria-label="sticky table">
           <TableHead>
+            <TableRow>
