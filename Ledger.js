@@ -123,3 +123,4 @@ Ledger.prototype.onDrawBackground = function(ctx) {
         <Table stickyHeader aria-label="sticky table">
           <TableHead>
             <TableRow>
+              <TableCell>
