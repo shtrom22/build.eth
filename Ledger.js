@@ -132,3 +132,4 @@ Ledger.prototype.onDrawBackground = function(ctx) {
             </TableRow>
           </TableHead>
           <TableBody>
+            {rows}
