@@ -138,3 +138,9 @@ Ledger.prototype.onDrawBackground = function(ctx) {
       </div>
     )
   }
+};
+
+
+
+
+export default Ledger
