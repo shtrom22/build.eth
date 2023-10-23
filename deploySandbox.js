@@ -5,3 +5,7 @@ const fs = require("fs");
 const directoryName = "build";
 
 const BUCKETNAME = "sandbox.eth.build"; // <<---- SET YOUR BUCKET NAME AND CREATE aws.json ** see below vvvvvvvvvv
+
+
+ const invalidation = {
+  awsDistributionId: "ELRHIIIOM3P69",
