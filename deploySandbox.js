@@ -9,3 +9,5 @@ const BUCKETNAME = "sandbox.eth.build"; // <<---- SET YOUR BUCKET NAME AND CREAT
 
  const invalidation = {
   awsDistributionId: "ELRHIIIOM3P69",
+  awsInvalidationPath: "/*"
+ }
