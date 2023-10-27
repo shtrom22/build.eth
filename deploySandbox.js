@@ -16,3 +16,6 @@ const BUCKETNAME = "sandbox.eth.build"; // <<---- SET YOUR BUCKET NAME AND CREAT
 if (!BUCKETNAME) {
   console.log("☢️   Enter a bucket name in packages/react-app/scripts/s3.js ");
   process.exit(1);
+}
+
+let credentials = {};
