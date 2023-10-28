@@ -19,3 +19,6 @@ if (!BUCKETNAME) {
 }
 
 let credentials = {};
+try {
+  credentials = JSON.parse(fs.readFileSync("aws.json"));
+} catch (e) {
