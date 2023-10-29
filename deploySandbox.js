@@ -22,3 +22,5 @@ let credentials = {};
 try {
   credentials = JSON.parse(fs.readFileSync("aws.json"));
 } catch (e) {
+  console.log(e);
+  console.log(
