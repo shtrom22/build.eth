@@ -30,3 +30,6 @@ try {
 }
 
 credentials.bucket = BUCKETNAME;
+
+// optional options to be passed as parameter to the method
+const options = {
