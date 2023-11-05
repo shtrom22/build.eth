@@ -33,3 +33,6 @@ credentials.bucket = BUCKETNAME;
 
 // optional options to be passed as parameter to the method
 const options = {
+  useFoldersForFileTypes: false,
+  useIAMRoleCredentials: false,
+};
