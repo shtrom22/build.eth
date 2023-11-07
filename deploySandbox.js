@@ -38,3 +38,8 @@ const options = {
 };
 
 /// //////////
+/// ////////// First, let's automatically create the bucket if it doesn't exist...
+/// //////////
+
+// eslint-disable-next-line import/no-extraneous-dependencies
+const AWS = require("aws-sdk");
