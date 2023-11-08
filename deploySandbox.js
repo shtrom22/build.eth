@@ -43,3 +43,5 @@ const options = {
 
 // eslint-disable-next-line import/no-extraneous-dependencies
 const AWS = require("aws-sdk");
+// Load credentials and set Region from JSON file
+AWS.config.loadFromPath("./aws.json");
