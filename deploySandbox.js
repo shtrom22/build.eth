@@ -45,3 +45,6 @@ const options = {
 const AWS = require("aws-sdk");
 // Load credentials and set Region from JSON file
 AWS.config.loadFromPath("./aws.json");
+
+// Create S3 service object
+s3 = new AWS.S3({ apiVersion: "2006-03-01" });
