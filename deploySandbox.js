@@ -52,3 +52,5 @@ s3 = new AWS.S3({ apiVersion: "2006-03-01" });
 // Create params JSON for S3.createBucket
 const bucketParams = {
   Bucket: BUCKETNAME,
+  ACL: "public-read",
+};
