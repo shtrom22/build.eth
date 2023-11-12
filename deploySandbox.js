@@ -54,3 +54,6 @@ const bucketParams = {
   Bucket: BUCKETNAME,
   ACL: "public-read",
 };
+
+// Create params JSON for S3.setBucketWebsite
+const staticHostParams = {
