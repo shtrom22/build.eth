@@ -57,3 +57,5 @@ const bucketParams = {
 
 // Create params JSON for S3.setBucketWebsite
 const staticHostParams = {
+  Bucket: BUCKETNAME,
+  WebsiteConfiguration: {
