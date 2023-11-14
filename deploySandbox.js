@@ -59,3 +59,5 @@ const bucketParams = {
 const staticHostParams = {
   Bucket: BUCKETNAME,
   WebsiteConfiguration: {
+    ErrorDocument: {
+      Key: "index.html",
