@@ -61,3 +61,5 @@ const staticHostParams = {
   WebsiteConfiguration: {
     ErrorDocument: {
       Key: "index.html",
+    },
+    IndexDocument: {
