@@ -63,3 +63,5 @@ const staticHostParams = {
       Key: "index.html",
     },
     IndexDocument: {
+      Suffix: "index.html",
+    },
