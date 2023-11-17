@@ -65,3 +65,7 @@ const staticHostParams = {
     IndexDocument: {
       Suffix: "index.html",
     },
+  },
+};
+
+// Call S3 to create the bucket
