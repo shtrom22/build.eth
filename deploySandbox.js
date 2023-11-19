@@ -71,3 +71,5 @@ const staticHostParams = {
 // Call S3 to create the bucket
 s3.createBucket(bucketParams, function (err, data) {
   if (err) {
+    console.log("Error", err);
+  } else {
