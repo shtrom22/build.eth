@@ -73,3 +73,4 @@ s3.createBucket(bucketParams, function (err, data) {
   if (err) {
     console.log("Error", err);
   } else {
+    console.log("Bucket URL is ", data.Location);
