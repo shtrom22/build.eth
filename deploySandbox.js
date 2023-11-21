@@ -74,3 +74,5 @@ s3.createBucket(bucketParams, function (err, data) {
     console.log("Error", err);
   } else {
     console.log("Bucket URL is ", data.Location);
+    // Set the new policy on the newly created bucket
+    s3.putBucketWebsite(staticHostParams, function (err, data) {
