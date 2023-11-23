@@ -78,3 +78,4 @@ s3.createBucket(bucketParams, function (err, data) {
     s3.putBucketWebsite(staticHostParams, function (err, data) {
       if (err) {
         // Display error message
+        console.log("Error", err);
