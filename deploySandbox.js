@@ -79,3 +79,5 @@ s3.createBucket(bucketParams, function (err, data) {
       if (err) {
         // Display error message
         console.log("Error", err);
+      } else {
+        // Update the displayed policy for the selected bucket
