@@ -81,3 +81,4 @@ s3.createBucket(bucketParams, function (err, data) {
         console.log("Error", err);
       } else {
         // Update the displayed policy for the selected bucket
+        console.log("Success... UPLOADING!", data);
