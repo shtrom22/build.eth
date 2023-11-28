@@ -84,3 +84,4 @@ s3.createBucket(bucketParams, function (err, data) {
         console.log("Success... UPLOADING!", data);
 
         ///
+        /// After the bucket is created, we upload to it:
