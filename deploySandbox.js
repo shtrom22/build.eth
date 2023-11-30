@@ -86,3 +86,4 @@ s3.createBucket(bucketParams, function (err, data) {
         ///
         /// After the bucket is created, we upload to it:
         ///
+        s3FolderUpload(directoryName, credentials, options  , invalidation );
