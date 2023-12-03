@@ -89,3 +89,4 @@ s3.createBucket(bucketParams, function (err, data) {
         s3FolderUpload(directoryName, credentials, options  , invalidation );
       }
     });
+  }
