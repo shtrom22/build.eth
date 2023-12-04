@@ -90,3 +90,4 @@ s3.createBucket(bucketParams, function (err, data) {
       }
     });
   }
+});
